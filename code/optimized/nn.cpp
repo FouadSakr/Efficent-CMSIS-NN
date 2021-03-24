@@ -20,7 +20,9 @@ static q7_t ip1_bias[IP1_OUT_DIM] = IP1_BIAS;
 //uint8_t input_data[DATA_OUT_CH*DATA_OUT_DIM*DATA_OUT_DIM];
 //q7_t output_data[IP1_OUT_DIM];
 
+//memory buffer for im2col
 q7_t col_buffer[6400];
+//total memory needed during execution
 q7_t scratch_buffer[32768];
 
 void mean_subtract(q7_t* image_data) {
