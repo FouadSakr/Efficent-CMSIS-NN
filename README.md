@@ -5,7 +5,7 @@ We propose an in-place computation strategy to reduce memory requirements of neu
 This optimization relies on https://github.com/ARM-software/ML-examples/tree/master/cmsisnn-cifar10 repository.
 
 ## Modification on https://github.com/ARM-software/ML-examples/tree/master/cmsisnn-cifar10
-We only updated "code_gen.py" to be compatible with our proposed optimization method. User will have first to download the above repository and only replace "code_gen.py" file with our optimized one (code_gen_optimized.py).
+We only updated "code_gen.py" to be compatible with our proposed optimization method. User will have first to download the above repository and only replace "code_gen.py" file with our optimized one "code_gen_optimized.py".
 
-###Example
+### Example
 An Example of the optimized generated code can be found in /code/optimized.
